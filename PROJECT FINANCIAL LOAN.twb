@@ -1,0 +1,2521 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='financial_loan_dataset' inline='true' name='federated.09tklfe1sj4ne21086xa407wdzdg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='financial_loan_dataset' name='textscan.1s425zs07l7uen17c3x7x17gyor1'>
+            <connection class='textscan' directory='C:/Users/hp/Downloads' filename='financial_loan_dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1s425zs07l7uen17c3x7x17gyor1' name='financial_loan_dataset.csv' table='[financial_loan_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='address_state' ordinal='1' />
+            <column datatype='string' name='application_type' ordinal='2' />
+            <column datatype='string' name='emp_length' ordinal='3' />
+            <column datatype='string' name='emp_title' ordinal='4' />
+            <column datatype='string' name='grade' ordinal='5' />
+            <column datatype='string' name='home_ownership' ordinal='6' />
+            <column datatype='date' name='issue_date' ordinal='7' />
+            <column datatype='date' name='last_credit_pull_date' ordinal='8' />
+            <column datatype='date' name='last_payment_date' ordinal='9' />
+            <column datatype='string' name='loan_status' ordinal='10' />
+            <column datatype='date' name='next_payment_date' ordinal='11' />
+            <column datatype='integer' name='member_id' ordinal='12' />
+            <column datatype='string' name='purpose' ordinal='13' />
+            <column datatype='string' name='sub_grade' ordinal='14' />
+            <column datatype='string' name='term' ordinal='15' />
+            <column datatype='string' name='verification_status' ordinal='16' />
+            <column datatype='real' name='annual_income' ordinal='17' />
+            <column datatype='real' name='dti' ordinal='18' />
+            <column datatype='real' name='installment' ordinal='19' />
+            <column datatype='real' name='int_rate' ordinal='20' />
+            <column datatype='integer' name='loan_amount' ordinal='21' />
+            <column datatype='integer' name='total_acc' ordinal='22' />
+            <column datatype='integer' name='total_payment' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1s425zs07l7uen17c3x7x17gyor1' name='financial_loan_dataset.csv' table='[financial_loan_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='address_state' ordinal='1' />
+            <column datatype='string' name='application_type' ordinal='2' />
+            <column datatype='string' name='emp_length' ordinal='3' />
+            <column datatype='string' name='emp_title' ordinal='4' />
+            <column datatype='string' name='grade' ordinal='5' />
+            <column datatype='string' name='home_ownership' ordinal='6' />
+            <column datatype='date' name='issue_date' ordinal='7' />
+            <column datatype='date' name='last_credit_pull_date' ordinal='8' />
+            <column datatype='date' name='last_payment_date' ordinal='9' />
+            <column datatype='string' name='loan_status' ordinal='10' />
+            <column datatype='date' name='next_payment_date' ordinal='11' />
+            <column datatype='integer' name='member_id' ordinal='12' />
+            <column datatype='string' name='purpose' ordinal='13' />
+            <column datatype='string' name='sub_grade' ordinal='14' />
+            <column datatype='string' name='term' ordinal='15' />
+            <column datatype='string' name='verification_status' ordinal='16' />
+            <column datatype='real' name='annual_income' ordinal='17' />
+            <column datatype='real' name='dti' ordinal='18' />
+            <column datatype='real' name='installment' ordinal='19' />
+            <column datatype='real' name='int_rate' ordinal='20' />
+            <column datatype='integer' name='loan_amount' ordinal='21' />
+            <column datatype='integer' name='total_acc' ordinal='22' />
+            <column datatype='integer' name='total_payment' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address_state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[address_state]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>address_state</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>application_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[application_type]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>application_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emp_length</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[emp_length]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>emp_length</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emp_title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[emp_title]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>emp_title</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>grade</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[grade]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>grade</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>home_ownership</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[home_ownership]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>home_ownership</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[issue_date]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>issue_date</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_credit_pull_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[last_credit_pull_date]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>last_credit_pull_date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_payment_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[last_payment_date]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>last_payment_date</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[loan_status]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>loan_status</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>next_payment_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[next_payment_date]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>next_payment_date</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>member_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[member_id]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>member_id</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>purpose</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[purpose]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>purpose</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sub_grade</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sub_grade]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>sub_grade</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>term</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[term]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>term</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>verification_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[verification_status]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>verification_status</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>annual_income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[annual_income]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>annual_income</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dti</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dti]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>dti</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>installment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[installment]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>installment</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>int_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[int_rate]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>int_rate</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[loan_amount]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>loan_amount</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_acc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_acc]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>total_acc</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_payment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_payment]</local-name>
+            <parent-name>[financial_loan_dataset.csv]</parent-name>
+            <remote-alias>total_payment</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='good loan application' datatype='integer' name='[Calculation_1141944048148758536]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF  [good v/s bad loans]=&apos;good loan&apos; THEN [id] END)' />
+      </column>
+      <column caption='good loan recived' datatype='integer' name='[Calculation_1141944048160677900]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(if [good v/s bad loans]=&apos;good loan&apos; THEN [total_payment]END)' />
+      </column>
+      <column caption='bad loan application' datatype='integer' name='[Calculation_1141944048162779151]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(if [good v/s bad loans]=&apos;bad loan&apos; THEN [id] END)' />
+      </column>
+      <column caption='total loan amount' datatype='integer' name='[Calculation_720294532705914880]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([loan_amount])' />
+      </column>
+      <column caption='total amount recived' datatype='integer' name='[Calculation_720294532707205121]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[total_payment]' />
+      </column>
+      <column caption='avg intrest rate' datatype='real' name='[Calculation_720294532708339714]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([int_rate])' />
+      </column>
+      <column caption='AVERAGE DTI' datatype='real' name='[Calculation_720294532709183491]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([dti])' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='financial_loan_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5]' role='measure' type='quantitative' />
+      <column caption='Address State' datatype='string' name='[address_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Annual Income' datatype='real' name='[annual_income]' role='measure' type='quantitative' />
+      <column caption='Application Type' datatype='string' name='[application_type]' role='dimension' type='nominal' />
+      <column caption='Dti' datatype='real' name='[dti]' role='measure' type='quantitative' />
+      <column caption='Emp Length' datatype='string' name='[emp_length]' role='dimension' type='nominal' />
+      <column caption='Emp Title' datatype='string' name='[emp_title]' role='dimension' type='nominal' />
+      <column caption='good loan %' datatype='real' name='[good loan application (copy)_1141944048150204425]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF  [good v/s bad loans]=&apos;good loan&apos; THEN [id] END)/COUNT([id])' />
+      </column>
+      <column datatype='string' name='[good v/s bad loans]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[loan_status]' new-bin='true'>
+          <bin default-name='false' value='&quot;bad loan&quot;'>
+            <value>&quot;Charged Off&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;good loan&quot;'>
+            <value>&quot;Current&quot;</value>
+            <value>&quot;Fully Paid&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Grade' datatype='string' name='[grade]' role='dimension' type='nominal' />
+      <column caption='Home Ownership' datatype='string' name='[home_ownership]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Installment' datatype='real' name='[installment]' role='measure' type='quantitative' />
+      <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+      <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+      <column caption='Last Credit Pull Date' datatype='date' name='[last_credit_pull_date]' role='dimension' type='ordinal' />
+      <column caption='Last Payment Date' datatype='date' name='[last_payment_date]' role='dimension' type='ordinal' />
+      <column caption='Loan Amount' datatype='integer' name='[loan_amount]' role='measure' type='quantitative' />
+      <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+      <column caption='Member Id' datatype='integer' name='[member_id]' role='dimension' type='ordinal' />
+      <column caption='Next Payment Date' datatype='date' name='[next_payment_date]' role='dimension' type='ordinal' />
+      <column caption='Purpose' datatype='string' name='[purpose]' role='dimension' type='nominal' />
+      <column caption='Sub Grade' datatype='string' name='[sub_grade]' role='dimension' type='nominal' />
+      <column caption='Term' datatype='string' name='[term]' role='dimension' type='nominal' />
+      <column caption='Total Acc' datatype='integer' name='[total_acc]' role='measure' type='quantitative' />
+      <column caption='Total Payment' datatype='integer' name='[total_payment]' role='measure' type='quantitative' />
+      <column caption='Verification Status' datatype='string' name='[verification_status]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[good v/s bad loans]' type='palette'>
+            <map to='#24693d'>
+              <bucket>&quot;good loan&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;bad loan&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='financial_loan_dataset.csv' id='financial_loan_dataset.csv_8D8088E5197A4E4C9744DA44D48F5ED5'>
+            <properties context=''>
+              <relation connection='textscan.1s425zs07l7uen17c3x7x17gyor1' name='financial_loan_dataset.csv' table='[financial_loan_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='string' name='address_state' ordinal='1' />
+                  <column datatype='string' name='application_type' ordinal='2' />
+                  <column datatype='string' name='emp_length' ordinal='3' />
+                  <column datatype='string' name='emp_title' ordinal='4' />
+                  <column datatype='string' name='grade' ordinal='5' />
+                  <column datatype='string' name='home_ownership' ordinal='6' />
+                  <column datatype='date' name='issue_date' ordinal='7' />
+                  <column datatype='date' name='last_credit_pull_date' ordinal='8' />
+                  <column datatype='date' name='last_payment_date' ordinal='9' />
+                  <column datatype='string' name='loan_status' ordinal='10' />
+                  <column datatype='date' name='next_payment_date' ordinal='11' />
+                  <column datatype='integer' name='member_id' ordinal='12' />
+                  <column datatype='string' name='purpose' ordinal='13' />
+                  <column datatype='string' name='sub_grade' ordinal='14' />
+                  <column datatype='string' name='term' ordinal='15' />
+                  <column datatype='string' name='verification_status' ordinal='16' />
+                  <column datatype='real' name='annual_income' ordinal='17' />
+                  <column datatype='real' name='dti' ordinal='18' />
+                  <column datatype='real' name='installment' ordinal='19' />
+                  <column datatype='real' name='int_rate' ordinal='20' />
+                  <column datatype='integer' name='loan_amount' ordinal='21' />
+                  <column datatype='integer' name='total_acc' ordinal='22' />
+                  <column datatype='integer' name='total_payment' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='GOOD LOAN %'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontsize='20'>GOOD LOAN %</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='good loan %' datatype='real' name='[good loan application (copy)_1141944048150204425]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF  [good v/s bad loans]=&apos;good loan&apos; THEN [id] END)/COUNT([id])' />
+            </column>
+            <column datatype='string' name='[good v/s bad loans]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[loan_status]' new-bin='true'>
+                <bin default-name='false' value='&quot;bad loan&quot;'>
+                  <value>&quot;Charged Off&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;good loan&quot;'>
+                  <value>&quot;Current&quot;</value>
+                  <value>&quot;Fully Paid&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+            <column-instance column='[good loan application (copy)_1141944048150204425]' derivation='User' name='[usr:good loan application (copy)_1141944048150204425:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:good loan application (copy)_1141944048150204425:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:good loan application (copy)_1141944048150204425:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontsize='20'>&lt;</run>
+                <run fontcolor='#ffffff' fontsize='20'>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:good loan application (copy)_1141944048150204425:qk]</run>
+                <run fontcolor='#ffffff' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B4D48C47-4804-4558-A9C3-A3BB635F6BE0}' />
+    </worksheet>
+    <worksheet name='GOOD LOAN RECIVED'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontsize='20'>good loan recived</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='good loan recived' datatype='integer' name='[Calculation_1141944048160677900]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(if [good v/s bad loans]=&apos;good loan&apos; THEN [total_payment]END)' />
+            </column>
+            <column datatype='string' name='[good v/s bad loans]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[loan_status]' new-bin='true'>
+                <bin default-name='false' value='&quot;bad loan&quot;'>
+                  <value>&quot;Charged Off&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;good loan&quot;'>
+                  <value>&quot;Current&quot;</value>
+                  <value>&quot;Fully Paid&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+            <column caption='Total Payment' datatype='integer' name='[total_payment]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1141944048160677900]' derivation='User' name='[usr:Calculation_1141944048160677900:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048160677900:qk]' value='n#,##0,,.00M;-#,##0,,.00M' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048160677900:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontsize='20'>&lt;</run>
+                <run fontcolor='#ffffff' fontsize='20'>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048160677900:qk]</run>
+                <run fontcolor='#ffffff' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F3AD37F6-C311-40E8-B65E-ABF4A015C9D9}' />
+    </worksheet>
+    <worksheet name='GOOD loan issued'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff' fontsize='20'>good loan issued</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_1141944048141672449]' role='measure' type='quantitative' user:unnamed='GOOD loan issued'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_1141944048141701123]' role='measure' type='quantitative' user:unnamed='GOOD loan issued'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='total loan amount' datatype='integer' name='[Calculation_720294532705914880]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([loan_amount])' />
+            </column>
+            <column datatype='string' name='[good v/s bad loans]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[loan_status]' new-bin='true'>
+                <bin default-name='false' value='&quot;bad loan&quot;'>
+                  <value>&quot;Charged Off&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;good loan&quot;'>
+                  <value>&quot;Current&quot;</value>
+                  <value>&quot;Fully Paid&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Loan Amount' datatype='integer' name='[loan_amount]' role='measure' type='quantitative' />
+            <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1141944048141672449]' derivation='User' name='[usr:Calculation_1141944048141672449:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1141944048141701123]' derivation='User' name='[usr:Calculation_1141944048141701123:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_720294532705914880]' derivation='User' name='[usr:Calculation_720294532705914880:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048141701123:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048141672449:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048141701123:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048141672449:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.09tklfe1sj4ne21086xa407wdzdg].[good v/s bad loans]' />
+              <wedge-size column='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532705914880:qk]' />
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[good v/s bad loans]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.9944751262664795' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048141701123:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.8350828886032104' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048141672449:qk] + [federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048141701123:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{4B62BFDD-F2C7-40CA-A87D-B3B29E0B8714}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='Loan Amount' datatype='integer' name='[loan_amount]' role='measure' type='quantitative' />
+            <column-instance column='[purpose]' derivation='None' name='[none:purpose:nk]' pivot='key' type='nominal' />
+            <column caption='Purpose' datatype='string' name='[purpose]' role='dimension' type='nominal' />
+            <column-instance column='[loan_amount]' derivation='Sum' name='[sum:loan_amount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09tklfe1sj4ne21086xa407wdzdg].[none:purpose:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09tklfe1sj4ne21086xa407wdzdg].[sum:loan_amount:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-width' value='0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[sum:loan_amount:qk]' value='#000000' />
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#ffffff' />
+            <format attr='background-color' data-class='total' value='#ffffff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='cols' value='1' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09tklfe1sj4ne21086xa407wdzdg].[none:purpose:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09tklfe1sj4ne21086xa407wdzdg].[sum:loan_amount:qk]</rows>
+        <cols>[federated.09tklfe1sj4ne21086xa407wdzdg].[none:purpose:nk]</cols>
+      </table>
+      <simple-id uuid='{D6E22AAD-5F88-4B92-B3EC-C2786747970C}' />
+    </worksheet>
+    <worksheet name='avg DTI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontsize='20'>avg DTI</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='AVERAGE DTI' datatype='real' name='[Calculation_720294532709183491]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([dti])' />
+            </column>
+            <column caption='Dti' datatype='real' name='[dti]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_720294532709183491]' derivation='User' name='[usr:Calculation_720294532709183491:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532709183491:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532709183491:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontsize='20'>&lt;</run>
+                <run fontcolor='#ffffff' fontsize='20'>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532709183491:qk]</run>
+                <run fontcolor='#ffffff' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{350A4771-D62A-44E6-9C64-BC8B17B620B7}' />
+    </worksheet>
+    <worksheet name='avg intrest'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontsize='20'>avg intrest rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='avg intrest rate' datatype='real' name='[Calculation_720294532708339714]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([int_rate])' />
+            </column>
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_720294532708339714]' derivation='User' name='[usr:Calculation_720294532708339714:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532708339714:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532708339714:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontsize='20'>&lt;</run>
+                <run fontcolor='#ffffff' fontsize='20'>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532708339714:qk]</run>
+                <run fontcolor='#ffffff' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1BD47BE5-016B-42E9-839E-15AA033C85AC}' />
+    </worksheet>
+    <worksheet name='bad loan application'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontsize='20'>bad loan application</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='bad loan application' datatype='integer' name='[Calculation_1141944048162779151]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(if [good v/s bad loans]=&apos;bad loan&apos; THEN [id] END)' />
+            </column>
+            <column datatype='string' name='[good v/s bad loans]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[loan_status]' new-bin='true'>
+                <bin default-name='false' value='&quot;bad loan&quot;'>
+                  <value>&quot;Charged Off&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;good loan&quot;'>
+                  <value>&quot;Current&quot;</value>
+                  <value>&quot;Fully Paid&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1141944048162779151]' derivation='User' name='[usr:Calculation_1141944048162779151:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048162779151:qk]' value='c&quot;₹ &quot;#,##0,.00K;&quot;₹ &quot;-#,##0,.00K' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048162779151:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontsize='12'>&lt;</run>
+                <run fontcolor='#ffffff' fontsize='12'>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048162779151:qk]</run>
+                <run fontcolor='#ffffff' fontsize='12'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C4293A80-FA73-45AF-9577-5B3A79499898}' />
+    </worksheet>
+    <worksheet name='good loan application'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontsize='20'>GOOD LOAN APPLICATION</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='good loan application' datatype='integer' name='[Calculation_1141944048148758536]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF  [good v/s bad loans]=&apos;good loan&apos; THEN [id] END)' />
+            </column>
+            <column datatype='string' name='[good v/s bad loans]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[loan_status]' new-bin='true'>
+                <bin default-name='false' value='&quot;bad loan&quot;'>
+                  <value>&quot;Charged Off&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;good loan&quot;'>
+                  <value>&quot;Current&quot;</value>
+                  <value>&quot;Fully Paid&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1141944048148758536]' derivation='User' name='[usr:Calculation_1141944048148758536:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048148758536:qk]' value='n#,##0,.0K;-#,##0,.0K' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048148758536:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontsize='20'>&lt;</run>
+                <run fontcolor='#ffffff' fontsize='20'>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048148758536:qk]</run>
+                <run fontcolor='#ffffff' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{61626DCB-32B0-4C51-B34D-DEB367231918}' />
+    </worksheet>
+    <worksheet name='loan status summary'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontsize='20'>loan status summary</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='total loan amount' datatype='integer' name='[Calculation_720294532705914880]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([loan_amount])' />
+            </column>
+            <column caption='total amount recived' datatype='integer' name='[Calculation_720294532707205121]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[total_payment]' />
+            </column>
+            <column caption='avg intrest rate' datatype='real' name='[Calculation_720294532708339714]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([int_rate])' />
+            </column>
+            <column caption='AVERAGE DTI' datatype='real' name='[Calculation_720294532709183491]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([dti])' />
+            </column>
+            <column caption='Dti' datatype='real' name='[dti]' role='measure' type='quantitative' />
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column caption='Loan Amount' datatype='integer' name='[loan_amount]' role='measure' type='quantitative' />
+            <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+            <column-instance column='[loan_status]' derivation='None' name='[none:loan_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_720294532707205121]' derivation='Sum' name='[sum:Calculation_720294532707205121:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Payment' datatype='integer' name='[total_payment]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_720294532705914880]' derivation='User' name='[usr:Calculation_720294532705914880:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_720294532708339714]' derivation='User' name='[usr:Calculation_720294532708339714:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_720294532709183491]' derivation='User' name='[usr:Calculation_720294532709183491:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09tklfe1sj4ne21086xa407wdzdg].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532709183491:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532708339714:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tklfe1sj4ne21086xa407wdzdg].[sum:Calculation_720294532707205121:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532705914880:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09tklfe1sj4ne21086xa407wdzdg].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532709183491:qk]' value='p0.0%' />
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532708339714:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='band-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+            <format attr='band-size' scope='cols' value='1' />
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[Multiple Values]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontsize='20'>&lt;</run>
+                <run fontcolor='#ffffff' fontsize='20'>[federated.09tklfe1sj4ne21086xa407wdzdg].[Multiple Values]</run>
+                <run fontcolor='#ffffff' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>[federated.09tklfe1sj4ne21086xa407wdzdg].[none:loan_status:nk]</rows>
+        <cols>[federated.09tklfe1sj4ne21086xa407wdzdg].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{45C6AC90-A562-4B74-8C75-D9FEB5985F95}' />
+    </worksheet>
+    <worksheet name='total funded amount'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontsize='20'>total funded amount</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='total amount recived' datatype='integer' name='[Calculation_720294532707205121]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[total_payment]' />
+            </column>
+            <column-instance column='[Calculation_720294532707205121]' derivation='Sum' name='[sum:Calculation_720294532707205121:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Payment' datatype='integer' name='[total_payment]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[sum:Calculation_720294532707205121:qk]' value='c&quot;$&quot;#,##0,,.0M' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[sum:Calculation_720294532707205121:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontsize='20'>&lt;</run>
+                <run fontcolor='#ffffff' fontsize='20'>[federated.09tklfe1sj4ne21086xa407wdzdg].[sum:Calculation_720294532707205121:qk]</run>
+                <run fontcolor='#ffffff' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B3A94CF2-8C4F-4338-97C8-4AF2A65D6048}' />
+    </worksheet>
+    <worksheet name='total loan amount'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000'>total loan amount</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='financial_loan_dataset' name='federated.09tklfe1sj4ne21086xa407wdzdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09tklfe1sj4ne21086xa407wdzdg'>
+            <column caption='total loan amount' datatype='integer' name='[Calculation_720294532705914880]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([loan_amount])' />
+            </column>
+            <column caption='Loan Amount' datatype='integer' name='[loan_amount]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_720294532705914880]' derivation='User' name='[usr:Calculation_720294532705914880:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532705914880:qk]' value='c&quot; $&quot;#,##0,,.00M;&quot; $&quot;-#,##0,,.00M' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532705914880:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='20'>&lt;</run>
+                <run fontsize='20'>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532705914880:qk]</run>
+                <run fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F59D2C9A-9B2B-4C6E-99C1-C478DA3341D0}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98120' id='12' name='avg DTI' w='99034' x='483' y='940'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='91069' id='3' is-scaled='1' param='C:/Users/hp/Downloads/wallpaper2you_234178.png' type-v2='bitmap' w='170187' x='-38865' y='5993' />
+        <zone h='13161' id='4' name='total loan amount' w='18829' x='1629' y='7168' />
+        <zone h='13278' id='5' name='total funded amount' w='20941' x='23657' y='7403' />
+        <zone h='13631' id='6' name='avg intrest' w='15389' x='45806' y='6580' />
+        <zone h='36663' id='14' name='GOOD loan issued' w='20097' x='6397' y='26087' />
+        <zone h='17979' id='15' name='good loan application' w='14424' x='29209' y='30317' />
+        <zone h='13161' id='16' name='GOOD LOAN %' w='15088' x='28908' y='49941' />
+        <zone h='18214' id='17' name='GOOD LOAN RECIVED' w='17200' x='63488' y='8696' />
+        <zone h='18096' id='18' name='bad loan application' w='14967' x='44297' y='30905' />
+        <zone h='29495' id='19' name='loan status summary' w='82016' x='5130' y='64982' />
+        <zone h='33255' id='20' name='Sheet 1' w='30175' x='60169' y='27967' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2300' minheight='2300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98120' id='31' param='vert' type-v2='layout-flow' w='99034' x='483' y='940'>
+                <zone fixed-size='280' h='98120' id='12' is-fixed='true' name='avg DTI' w='99034' x='483' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='91069' id='3' is-fixed='true' is-scaled='1' param='C:/Users/hp/Downloads/wallpaper2you_234178.png' type-v2='bitmap' w='170187' x='-38865' y='5993'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='109' h='13631' id='6' is-fixed='true' name='avg intrest' w='15389' x='45806' y='6580'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='106' h='13161' id='4' is-fixed='true' name='total loan amount' w='18829' x='1629' y='7168'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='106' h='13278' id='5' is-fixed='true' name='total funded amount' w='20941' x='23657' y='7403'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='145' h='18214' id='17' is-fixed='true' name='GOOD LOAN RECIVED' w='17200' x='63488' y='8696'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36663' id='14' is-fixed='true' name='GOOD loan issued' w='20097' x='6397' y='26087'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='266' h='33255' id='20' is-fixed='true' name='Sheet 1' w='30175' x='60169' y='27967'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='143' h='17979' id='15' is-fixed='true' name='good loan application' w='14424' x='29209' y='30317'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='145' h='18096' id='18' is-fixed='true' name='bad loan application' w='14967' x='44297' y='30905'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='105' h='13161' id='16' is-fixed='true' name='GOOD LOAN %' w='15088' x='28908' y='49941'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='236' h='29495' id='19' is-fixed='true' name='loan status summary' w='82016' x='5130' y='64982'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5F311383-6EFE-4555-B400-2B7BC1137332}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09tklfe1sj4ne21086xa407wdzdg].[none:purpose:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[none:purpose:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6BEC72C5-01B0-4B5C-BCB4-A0ADF49FB2FA}' />
+    </window>
+    <window class='worksheet' name='total loan amount'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{4A4289D7-2458-499F-B227-5F1AF93A1A5B}' />
+    </window>
+    <window class='worksheet' name='total funded amount'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{5FC7D062-A5B3-4A08-A75E-124DD983ADD4}' />
+    </window>
+    <window class='worksheet' name='avg intrest'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{03F5BD89-197F-41E8-BA69-18F853967E65}' />
+    </window>
+    <window class='worksheet' name='avg DTI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532709183491:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.1332743311903776</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{6207C356-6E4B-4D25-84CA-36F0956DBB77}' />
+    </window>
+    <window class='worksheet' name='GOOD loan issued'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.09tklfe1sj4ne21086xa407wdzdg].[good v/s bad loans]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='vertical'>
+              <node-reference>
+                <axis>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048141672449:qk]</axis>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[good v/s bad loans]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B4156A4E-BDE3-40C5-9C17-6E8820D6A45B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='GOOD LOAN %'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='GOOD LOAN RECIVED'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='GOOD loan issued'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.09tklfe1sj4ne21086xa407wdzdg].[none:purpose:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='avg DTI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='avg intrest'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='bad loan application'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='good loan application'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='loan status summary'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='total funded amount'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='total loan amount'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{982087F2-75A3-4036-A9EB-5FEB61771CB1}' />
+    </window>
+    <window class='worksheet' name='good loan application'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[good v/s bad loans]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{33B05DAE-9307-42DE-BEF6-3B9A2DE217C8}' />
+    </window>
+    <window class='worksheet' name='GOOD LOAN %'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{23F94456-54BA-4E8E-9E3F-8BC75D179574}' />
+    </window>
+    <window class='worksheet' name='GOOD LOAN RECIVED'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8FB14BC8-8BD4-4BA6-8C40-EA8CAD3748B6}' />
+    </window>
+    <window class='worksheet' name='bad loan application'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_1141944048162779151:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5333</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{35993E8D-F09E-457D-851A-CF9C3E11BEA1}' />
+    </window>
+    <window class='worksheet' name='loan status summary'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[none:loan_status:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[none:loan_status:nk]</field>
+                  <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[:Measure Names]</field>
+                  <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Current&quot;</value>
+                <value>&quot;[federated.09tklfe1sj4ne21086xa407wdzdg].[usr:Calculation_720294532705914880:qk]&quot;</value>
+                <value>18866500.0</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09tklfe1sj4ne21086xa407wdzdg].[none:loan_status:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1EACFADF-87F1-43CB-BAB3-C7795622291B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      koxk/QAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='GOOD LOAN %' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='GOOD LOAN RECIVED' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='GOOD loan issued' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAMbklEQVR4nO3da3BU5R3H8d/ZPXvNZZOQBDchBEQSLkkIaFUK1gtRBOy0HTutijpWrZ2q
+      0+toOx1ftB2nZbSdOo5ORR2oFdrSdjoiilATBM2M0GBikIQYIBAICAnZ3Pa+e87TFxhiiEn2
+      7CWLPr/PK1z2OfydOd+c3T1nTxQhhACRpEzpHoAondThP/T29kJV1YmeS/Slc2GPV1UVLpcr
+      nbMQTTm+BCKpMQCSGgMgqTEAkhoDIKkxAJIaAyCpMQCSGgMgqTEAkhoDIKkxAJIaAyCpMQCS
+      GgMgqTEAkhoDIKkxAJIaAyCpMQCSGgMgqTEAkhoDIKkxAJIaAyCpMQCSGgMgqTEAkhoDIKkx
+      AJIaAyCpMQCSGgMgqTEAkhoDIKkxAJIaAyCpMQCSGgMgqTEAkhoDIKkxAJIaAyCpMQCSGgMg
+      qTEAkhoDIKkxAJIaAyCpMQCSGgMgqTEAkhoDIKkxAJIaAyCpMQCSGgMgqTEAkhoDIKkxAPrS
+      GxgYgMfjGfO4pmlQ0zAP0YRCkRB6h/rxSV83vEEffMEAHH0BzB20wuLKhMWVBVthHuwFeTA7
+      bJNuz+v1Ys+ePZg1axYyMjJw4sQJVFRU4ODBgwyA0kvXdfR5B9B47CD2tTeh6VgLTvWegTfo
+      QygSvvC86k4dd+0VF/7bZLXAkp0JR8l05C5egPxlizHt6krYp0+DYh77wmbp0qU4fPgwent7
+      cfToUaiqihUrVkARQgjg/GHC5XJNwf8yEdDnHcB/P9yD1xtq0dRxEBEtOuHzLw7g8yiqimnX
+      VKLk27fAveo62ApyAZw/AtTX16OsrAzd3d0YHBxERUUFWlpaGABNHSEEDnUdwV92/Qs7mnYj
+      EA7GvDaWAD7LZLOi6LbrUfbju+FaeMW4z2MAlHJCCLSf7sDzb/0Vtc31iGgRw9swGsAwk9UC
+      9+rrMO/xB5BVVgpFUUb9PQOglPIGfVi/czNeeeffhn7iXyzeAIaZrBZc8fAdmPujtbC6skYe
+      j3uLRBMQQqDhSDO+te4hvLBzU0I7fzLo4Qjan3kVu1c8iO7dDRceZwCUdLquY0PdFjzw3GM4
+      3n0y3eOM4jvWhffvfAxtT2+EEIIfg1Jy+YJ+PPG3p/HG/rp0jzIuPRzBoXUvo/+jdgZAydPv
+      G8DPNz6Jd1v3pXuUmHzy5rsMgJJj0O/Fg88/jubjh9I9iiF8D0AJ8wX9+OmG33zhdn6AAVCC
+      NF3Dr7f86QvzsudifAlEcRNCYPOe17B1386kbzfSH0DY40dkMAAtFEWjJ4qgT4HLZIHb7ECJ
+      2QG3yQ5VSexnOAOguH3U2YanX3sB8Z+eGiE0HYHTAxg60oNAVz+ivjAgRrbcD6DjM883AchR
+      rKi0uPA1az4qLC5Y4oiBZ4IpLv5QAHf88REc6jqS0HaEEBhq70Z/8ymEe31xb6fE7MAqmxs1
+      tkJDRwUeASguG3f9M6GdXwiB4JlB9NQfRfhc/Dv+sJNaAC/6O/B26CzudZZikSUnpnU8ApBh
+      nd1d+Oa678MbjG/HFZqOvqYu9DWegNCS8QJqNBUKbrfPwO2O4gmPBjp4BCCDhBB47q1X4t75
+      9aiGs7va4Tt6LsmTjYhCYEvwJDo1Hx7NuAJO09jd3G8FtlUrDICMOXnuNHY07Y5rrR7V8Mlb
+      rQh09Sd3qHHsjXgw6G3DrzLnXYhAAOicBmy5xoTeTIXnAciYTXv+g2A4ZHid0HScrWufsp1/
+      WGt0EM/5jiAqdGgKULdAwUs3mNCbpQAKXwKRAUMBL7b+723D64QQ6PuwC76O1L3smcjeiAeb
+      tFOIXl+KdvfoL8TwCEAx233wfXi8xn+Ch7qH0PfBiRRMFLvXvV1oFgNjHmcAFBMhBLY1GL/E
+      WQiBnvqOlHzaY4j+6Ry6PuphBkAxCUXCeC+O6328R3oQ6h5KwUTGhXt9GGrvGfUYA6CYNHYc
+      RFTXDK0Rmo6+D7tSNFF8+g+cgtBGjgIMgGKy73CT4TXB7qGknOVNpnCvD8GzI0ckBkAxaT7W
+      aniNN4UnuxIxdLj7wp8ZAE0qokXR1XvG0BohBPydY29Ieynwn+zDp1cAMQCanDfgQ/eAsZ/m
+      kcEgIl7jJ8ymQtQXRmQgAIABUAw83n7D9/WJDAQAPc0ffY5HFwj3MQCKkS/oN7wmMpDeG2FN
+      hkcAipkvFDC8Rg9NfLfndBuejwHQpPwh40cAPWrsnMFU0yPn52MANCmbajW85vN+ScWlZHi+
+      S3tKuiRkOjIMrzHbL+0LjYfnYwA0qWxH1uRPuogl25GCSZLH4jo/HwOgSeVmuuC0GduhrXlO
+      KGZl8iemg6LAmuMEwAAoBpl2J/Kz8wytUTNsULPsKZooMWqGFRbX+dkYAE3KolpQkl9kaI1i
+      UuAoju3WJFPN7nbxTTAZs3j2QsNrssoKUzBJ4rLLR+ZiABSTq+dWG15jL8iENc+ZgmniZ8lx
+      wO4euf8VA6CYLJo1HzaLsfMBitmEnEUzUjRRfHIWFcOkjuz2DIBi4rDacW3ZEsPrsuYWwJaf
+      mYKJjLPmZyC7fPqoxxgAxURRFHz9qhrj68wm5C+7HDCl+SNRk4L8a2ePOUPNAChmN1Z+FbkZ
+      xu8f6yhyIXdxSQomil1u9Qw4S3LHPM4AKGbZzkysueqmuNbmXVmCjNnTkjxRbJwzc5F75czP
+      /TsGQIZ876bvwKpaDK9TzCYU3lQGuzs7BVONzz49C9Nr5o164/tZDIAMmVlQjDVXxncUMFtV
+      FK1eCGepsbPK8XKW5MJ9WwXMtvEvzGMAZNgjq++D0xrfxW4mqwr3yvnIqZ6RujfGigJXZREu
+      u3U+zNaJr0plAGRYaUExHqj5btzrFbMJ+Utno2hNBSy5yb1q1JrnhHvVAhQsnwOTap58Fv6G
+      GIqHL+jH7U/9AEfPdCa0HaHpGPy4G/0HuhDpM/7Vy2EWlx3ZC9xwVbhj2vGHMQCK2wdHD+Ce
+      Z36CiJb493/1qAb/yT54D/fA39Uf03eKzQ4L7O5sZJdPh6M4ByZL7Dv+MAZACVm/czP+sHV9
+      UrcpdIHQOS8i/X6E+4PQw1HoEQ2KSYHZYYHF5YBtWgasuc6Ev3rJACghmq7hZxt+i+2N76R7
+      lLjwTTAlxGwy4/f3/BLXlC1O9yhxYQCUMKfNgecfehJVpfPSPYphDICSwuXMwksPPxXX9wbS
+      iQFQ0uRl5eDFH65DTdXydI8Sk5pFy/kmmJIvokXx5x2vYv3OTQhHI+keZwybasWDN9+JR1ff
+      xwAodd7/+AM8sflpnDh3Ot2jXODOLcTv7v4Fls//CgB+DEop5g368OwbG/H397YiGEnf7wuw
+      mFXced038Oia+0Z9p4EBUMoJIdB68jCefXMD3m3ZZ/iX7SVCNau4YeG1eHjVvaiYWQ5FGX0B
+      HgOgKSOEQPPxVrxc+w/UNdenNARFUXBL9dfw0M13oWrW/PGfxwAoUadOnUJxcTE6OztRUlIC
+      k2nyDxd7Bj3Y0bgbb+yvxYHjh5ISg8WsomJmOW5dcgNWL7kRl+VOfl8iBkATCgQC2LVrF7Ky
+      smCz2eDxeFBZWYnGxkZUVVWho6MDx48fx/3334/a2lqUl5ejqakJ1dXV6OjogMPhgKZp6Onp
+      QU1NDTIyRt9pOqpFcbb/HBqONGNfexMOdB7Cac9ZBCMhRLXxo1BNZtitdrhzC7Hk8gpcPbca
+      Sy6vgDuvEGYTrwalJGlpaUFhYSEaGxuhKApmzpyJvXv3Yu3atdi+fTuKiooQDoexbNky1NbW
+      Qtd11NTUYNu2bVAUBT09PSgvL0dpaSl0XUdpaemk/2YgHMTZ/h6c9nTDF/TDFwrAH/LDYrYg
+      25mJTHsGivIKMT2nwPBNey/GAGhCQ0NDqKurw9DQEObNmwePx4Oqqirs378f1dXVaGtrg67r
+      WLlyJdra2uByudDQ0ICqqiq0trZCVVXMmTMHeXl5EEIgL29qvg4ZKwZAEwqFQqivr0dZWRlK
+      StJ7a5NUYAAkNV4LRFJjACQ1BkBSYwAkNQZAUmMAJDUGQFJjACQ1BkBSYwAkNQZAUmMAJDUG
+      QFJjACQ1BkBSYwAkNQZAUmMAJDUGQFJjACQ1BkBSYwAkNQZAUmMAJDUGQFJjACQ1BkBSYwAk
+      NQZAUmMAJDUGQFJjACQ1BkBSYwAkNQZAUmMAJDUGQFJjACQ1BkBSYwAkNQZAUmMAJDUGQFJj
+      ACQ1BkBSYwAkNQZAUmMAJDUGQFJjACQ1BkBSYwAkNQZAUmMAJDUGQFJjACQ1BkBSYwAktf8D
+      ReFXe29L8j4AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='avg DTI' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACqElEQVR4nO3WPWsUURSA4buTicsaDWIjdiJY+v//iKW1diIJG1n3Y6yMCKmzsO/zVHdO
+      dZqXOatlWZYBUdO5F4Bzmv8+vvz4NR4Op3PuAs/uMYDt4TTu9wKgxQlEmgBIEwBpAiBNAKQJ
+      gDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBI
+      EwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQB
+      kCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBp
+      AiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA
+      0gRAmgBIEwAZ8+r/72kIgIB5NcaH1y/G57ebx9nNPI2Pt+sxn3EveBabeRrftvtxvfr3C9ge
+      TuPr3U4AXL77/enJ+c08OYHoOpwWAdB0tRpjd1qcQFy+9y+vx6t5Gm/WV+PT7Xrc7Y9jd1zG
+      u80sAC7f94f9k/Ofv49OINoEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0
+      AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMA
+      aQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAm
+      ANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIg
+      TQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQNofUfgvvcVeLccAAAAASUVORK5C
+      YII=
+    </thumbnail>
+    <thumbnail height='192' name='avg intrest' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACuklEQVR4nO3XIU5rYRRG0UODp64JBjwORRgHE+gYsB0CAs8UmAmGWRQcloTk4khenm+T
+      7rXcPeozO/nv2bIsy0DU+czM7e3tfH5+HnsLHNz5zMzHx8fs9/tjb4GDWx17AByTAEgTAGkC
+      IE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDS
+      BECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0A
+      pAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECa
+      AEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmA
+      NAGQJgDSBECaAEgTAGkCIOPi4uKf79VqJQBO33q9nt1uN6+vr3+3zWYzz8/Pc37EXXAQ19fX
+      8/LyMuv1+u/2/f09j4+PAuD0vb+//3f7+vqaGf8AhN3d3QmAps1mMw8PD55AnL7tdjs3Nzdz
+      f38/T09P8/b2Nj8/P3N1dTVny7Isl5eXs9/vj70TDs4TiDQBkCYA0gRAmgBIEwBpAiBNAKQJ
+      gDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBI
+      EwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQB
+      kCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBp
+      AiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkPYL
+      LOAyiMJCqsYAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='bad loan application' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACa0lEQVR4nO3WO1JCURBAwUEoDAnc/65cgJmRJJSi8nkGli4BgtMdzc0mOXVntSzLMhD1
+      cO8F4J42f8Pz/jgf5+s9d4Gb+w/g/Xydw0kAtDiBSBMAaQIgTQCkCYA0AZAmANIEQJoASBMA
+      aQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAm
+      ANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIg
+      TQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIE
+      QJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCk
+      be69ANzSejWz267n6XEzr8eTH4Cm6yyzGicQQbvtevaflzmcrgKg5bLMvBy+52H1+xYAOcvM
+      vH1dZkYAxAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQ
+      JgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkC
+      IE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDS
+      BECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0A
+      pAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQ9gP2sSSs8AqMrQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='good loan application' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='loan status summary' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='total funded amount' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAADvUlEQVR4nO3XLUtlaxjH4dszblE26tYibhTTBMHgS1QQDCaDUcPA4BfQKn4AYT6CX0JM
+      2mwT1GqwicGXZBBMg+uEAcsU4XBG2P/rgqes51lwlx/rWX1N0zQFofqrqhYXF+vp6emzZ4G/
+      rr+q6vHxsR4eHj57Fvjr/vnsAeAzCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCi
+      CYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYA
+      ogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgm
+      AKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCI
+      JgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoA
+      6CmtVqu+fftWU1NTf+y12+3qdDpVVTUyMlLdbrf6//aA8H8ZHh6uHz9+VLvdrrm5uTo/P6+z
+      s7Oq+h3G4eFhvb291d7eXi0sLNTS0lL1NU3TdLvdenh4+OTx4b9ZW1urdrtdAwMDdXp6Wq+v
+      r+97Ozs7dXNzUxsbG7W/v//+3BWInnF5eVnr6+u1urpa4+Pj78+/fv1ao6OjdXFx8cc7AqBn
+      vLy81N7eXt3f39fm5mZ9//69Op1OHRwc1PX1da2srNT09HTNzs6+vyMAesbIyEh9+fKlbm9v
+      6+joqObn56uvr6+Oj49raGioxsbGanBwsNrtdlVVTUxM+Ammd3S73drd3a2ZmZlaXl6u09PT
+      en5+rpOTk6r6/SM8Pz9fV1dXVVW1vb1d1TRNMzk52VSVZfXE2traalqt1ofOugLRc37+/Fm/
+      fv360FlXIHrO3d3dh8/6AhBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQT
+      ANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBE
+      EwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0A
+      RBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBN
+      AEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQLR/AbcwKIBeWghQAAAA
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='total loan amount' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAECElEQVR4nO3YsauOfRzH8c997rvkyGQg92JxSjablMFCbCY7g9E/YjBIymZVZFYkC2Ew
+      koF0HMnAUbqPc53L8JR6Vj09uvu8Xuu3X/2u4V3X9zcZx3EMlFr52xeAv0kAVBMA1QRANQFQ
+      TQBUEwDVBEA1AVBNAFQTANUEQDUBUE0AVBMA1QRANQFQTQBUEwDVBEA1AVBNAFQTANUEQDUB
+      UE0AVBMA1QRANQFQTQBUEwDVBEA1AVBNAFQTANUEQDUBUE0AVBMA1QRANQFQTQBUEwDVBEA1
+      AVBNAFQTANUEQDUBUE0AVBMA1QRANQFQTQBUEwDVBEA1AVBNAFQTANUEQDUBUE0AVBMA1QRA
+      NQFQTQBUEwDVBEA1AVBNAFQTANUEQDUBUE0AVBMA1QRANQFQTQBUEwDVBEA1AVBNAFQTANUE
+      QDUBUE0AVBMA1QRANQFQTQBUEwDVBEA1AVBNACy1YRjy7NmzPz4/Gcdx/A/vA/+bFy9e5MGD
+      B1lfX8/hw4dz+fLlzGaz37Nr167l5s2bmU6nuXXrVra2trK9vZ35fJ4LFy7k7du3mf3lb4A/
+      9vjx41y5ciWPHj3KqVOnMp1OkySbm5t5+vRpjh8/niSZzWa5ePFidu3alXEcc/Xq1QzDkPfv
+      3/sFYnmtra3lyZMneffuXRaLRSaTSYZhyN27d3P+/PnfQaysrGR7ezvPnz/P7du3s7a2ltls
+      lp8/fwqA5XXu3LmcOHEiSXLjxo1sbGzk3r17OXjwYBaLRb5+/ZoPHz5kGIbs3r07R44cydGj
+      R/PmzZtsbW3l9OnTAmB5/fjxI9PpNIcOHcrJkyfz+vXrHDhwIJubm3n58mXW19fz6tWrLBaL
+      jOOYPXv25NixY9m3b1++fPmSb9++2QFYXnfu3MnGxkY+ffqU+XyeS5cuZe/evb/nnz9/ztmz
+      Z/P9+/dcv349q6urGYYhq6ur2b9/f+7fv+8ViOU1jmMWi0UePnyYM2fOZDKZ/Gs+DENWVlYy
+      mUyys7OTYRiS/LMUTyaTjOMoAJbbzs5OPn78mPl8/kfnBUA1SzDVBEA1AVBNAFQTANUEQDUB
+      UE0AVBMA1QRANQFQTQBUEwDVBEA1AVBNAFQTANUEQDUBUE0AVBMA1QRANQFQTQBUEwDVBEA1
+      AVBNAFQTANUEQDUBUE0AVBMA1QRANQFQTQBUEwDVBEA1AVBNAFQTANUEQDUBUE0AVBMA1QRA
+      NQFQTQBUEwDVBEA1AVBNAFQTANUEQDUBUE0AVBMA1QRANQFQTQBUEwDVBEA1AVBNAFQTANUE
+      QDUBUE0AVBMA1QRANQFQTQBUEwDVBEA1AVBNAFQTANUEQDUBUE0AVBMA1QRANQFQTQBUEwDV
+      BEA1AVBNAFT7BU1S0UNC3BO/AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
